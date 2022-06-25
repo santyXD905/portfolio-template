@@ -19,7 +19,7 @@ body {
 .navbar {
   position: fixed;
   width: 100%;
-  background-color: var(--primary-color-dark);
+  background-color: #000000;
   z-index: 1;
 }
 
@@ -118,7 +118,7 @@ h1 {
 }
 
 .text-section {
-  background-color: var(--primary-color);
+  background-color: #00CC33;
   display: flex;
   flex-direction: column;
   justify-content: center;
