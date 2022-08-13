@@ -1,182 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-  <title>Mi Portfolio</title>
-</head>
-<body>
-  <header>
-    <nav class="navbar">
-      <a href="#" class="logo">Mi Portfolio</a>
-      <ul class="menu">
-        <li class="menu-item">
-          <a href="#home">Inicio</a>
-        </li>
-        <li class="menu-item">
-          <a href="#about">Sobre mí</a>
-        </li>
-        <li class="menu-item">
-          <a href="#projects">Experiencia</a>
-        </li>
-        <li class="menu-item">
-          <a href="#contact">Contacto</a>
-        </li>
-        <li class="menu-item">
-          <a href="#technologies">Tecnologías</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+    <head>
+        <meta name="description" content="Web Resume">
+        <meta name="keywords" content="">
+        <meta name="author" content="Your name">
+        <meta charset="utf-8">
+        
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+        <!--Import style.css-->
+        <link type="text/css" rel="stylesheet" href="css/styles.css"  media="screen,projection"/>
+        <!--Optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <section id="home" class="content">
-    <div class="half-section">
-     <div class="avatar-container">
-      <img src="./assets/avatar2.png" alt="">
-      <h3>"logo"</h3>
-     </div>
-    </div>
-    <div class="half-section text-section">
-      <div class="introduction">
-        <h1 class="title">Hola!, <br> Soy Santiago Tintilay </h1>
-        <ul class="socials">
-          <li><a class="socials-icon" href=""><i class="bi bi-github"></i></a></li>
-          <li><a class="socials-icon" href=""><i class="bi bi-linkedin"></i></a></li>
-          <li><a class="socials-icon" href=""><i class="bi bi-twitter"></i></a></li>
-          <li><a class="socials-icon" href=""><i class="bi bi-facebook"></i></a></li>
-          <li><a class="socials-icon" href=""><i class="bi bi-instagram"></i></a></li>
-        </ul>
-  
-        <p class="description"> cero años de experiencia pero con muchas ganas de comenzar. <br> Déjame contarte un poco de mí, sigue deslizando!</p>
-      </div>
+        <script src="https://kit.fontawesome.com/9e67f5c26b.js" crossorigin="anonymous"></script>
+        
+        <title>Curriculum Vitae Tintilay Santiago</title>
+    </head>
 
-    </div>
-  </section>
-  
-  <section id="about" class="content">
-    <aside class="half-section text-section">
-      <p>
-        Tengo 19 años, me gusta programar y jugar videojuegos, Algun dia espero poder trabajar de lo que me gusta y ya no se que poner :)
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore esse a officiis autem sint harum quos rerum neque aut, totam itaque iure perferendis vitae reiciendis praesentium corporis saepe consectetur.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore esse a officiis autem sint harum quos rerum neque aut, totam itaque iure perferendis vitae reiciendis praesentium corporis saepe consectetur.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati veniam, deleniti rem, neque ipsum eos ullam distinctio, atque harum perferendis itaque ipsam labore voluptatibus. Maiores provident perspiciatis sunt mollitia impedit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolore esse a officiis autem sint harum quos rerum neque aut, totam itaque iure perferendis vitae reiciendis praesentium corporis saepe consectetur.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati veniam, deleniti rem, neque ipsum eos ullam distinctio, atque harum perferendis itaque ipsam labore voluptatibus. Maiores provident perspiciatis sunt mollitia impedit.
-      </p>
-    </aside>
-    <aside class="half-section title-section">
-      <h2>Un poco sobre mí</h2>
-    </aside>
-  </section>
+    <body>
+        <a id="scroll"><i class="fas fa-angle-up"></i></a>
+        
+        <div class="row light">
+            <div class="container">
+                <div class="col s12 m12 l4 xl4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/foto.jpg">
+                        </div>
 
-  <section id="projects" class="content">
-    <aside class="half-section title-section">
-      <h2>Experiencia en el campo</h2>
-    </aside>
-    <aside class="half-section text-section">
-        <ul class="project-list">
-          <li>
-            <h3>Proyecto 1</h3>
-            <p>
-              proyecto de backend y frontend con angular, mongoDB y express
-            </p>
-            <a class="project-link" href="https://github.com/santyXD905/TPN5_BACKEND_FRONTEND_LU-4850"><i class="bi bi-github"></i> Ver más</a>
-          </li>
-          <li>
-            <h3>Proyecto 2</h3>
-            <p>
-              proyecto de java usando el framework de Spring
-            </p>
-            <a class="project-link" href="https://github.com/santyXD905/Tintilay_Santiago_TPN4_progra_visual"><i class="bi bi-github"></i> Ver más</a>
-          </li>
-          
-        </ul>
-    </aside>
-  </section>
-  <section id="technologies" class="content">
-    <aside class="half-section text-section">
-    <div class="tech-icons-container">
-    <ul class="tech-icon-list">
-    <li class="tech-icon-item">
-    <img height="60px" width="auto" src="./assets/tech-icons/icon-git.svg" alt="Git Icon">
-    <span>Git</span>
-    </li>
-    <li class="tech-icon-item">
-    <img height="60px" width="auto" src="./assets/tech-icons/icon-github.svg" alt="GitHub Icon">
-    <span>GitHub</span>
-    </li>
-    <li class="tech-icon-item-end">
-    <img height="60px" width="auto" src="./assets/tech-icons/icon-html.svg" alt="HTML Icon">
-    <span>HTML</span>
-    </li>
-    </ul>
-    <ul class="tech-icon-list">
-    <li class="tech-icon-item">
-    <img height="60px" width="auto" src="./assets/tech-icons/icon-css.svg" alt="CSS Icon">
-    <span>CSS</span>
-    </li>
-    <li class="tech-icon-item">
-    <img height="60px" width="auto" src="./assets/tech-icons/icon-js.svg" alt="JavaScript Icon">
-    <span>JavaScript</span>
-    </li>
-    <li class="tech-icon-item-end">
-    <img height="60px" width="auto" src="./assets/tech-icons/icon-react.svg" alt="ReactJS Icon">
-    <span>React</span>
-    </li>
-    </ul>
-    <ul class="tech-icon-list-end">
-    <li class="tech-icon-item">
-    <img height="60px" width="auto" src="./assets/tech-icons/icon-nodejs.svg" alt="NodeJS Icon">
-    <span>NodeJS</span>
-    </li>
-    <li class="tech-icon-item">
-    <img height="60px" width="auto" src="./assets/tech-icons/icon-postgresql.svg" alt="PostgreSQL Icon">
-    <span>PostgreSQL</span>
-    </li>
-    </ul>
-    </div>
-    </aside>
-    <aside class="half-section title-section">
-    <h2>Tecnologías que manejo</h2>
-    </aside>
-    </section>
-    <section id="contact" class="content">
-      <aside class="half-section title-section">
-      <h2>Envíame un mensaje y charlemos!</h2>
-      </aside>
-      <aside class="half-section text-section">
-      <form action="">
-      <label for="name">Nombre</label>
-      <input class="input-field" type="text" name="name" id="name">
-      <label for="email">Email</label>
-      <input class="input-field type="email" name="email" id="email">
-      <label for="message">Mensaje</label>
-      <textarea class="input-field" name="message" id="message" cols="30" rows="10"></textarea>
-      <input class="btn-send-message" type="submit" value="Enviar">
-      </aside>
-      </section>
-  <footer>
-    <div class="footer-section-container">
-      <ul class="socials">
-        <li><a class="socials-icon" href=""> <i class="bi bi-github"></i></a></li>
-        <li><a class="socials-icon" href=""><i class="bi bi-linkedin"></i></a></li>
-        <li><a class="socials-icon" href=""><i class="bi bi-twitter"></i></a></li>
-        <li><a class="socials-icon" href=""><i class="bi bi-facebook"></i></a></li>
-        <li><a class="socials-icon" href=""><i class="bi bi-instagram"></i></a></li>
-      </ul>
-    </div>
-      <div class="footer-section-container">
-        <p>
-          &copy; 2022 - <a class="footer-link" href="https://www.linkedin.com">Nombre y Apellido</a>
-        </p>
-      </div>
-  </footer>
-</body>
+                        <!--Name / Position title-->
+                        <div class="card-action center">
+                            <span class="card-title center">Tintilay Santiago José Luis</span>
+                            <p><div class="chip-job"> Estudiante de Analista Programador Universitario</div></p>
+                        </div>
+
+                        <div class="card-content">
+                        
+                            <!--Edad-->
+                            <div class="row">
+                              <div class="col s12 m2 l3 xl2"><i class="small material-icons">account_box</i></div>
+                              <div class="col s12 m9 l9 xl10">
+                                <strong>Fecha de Nacimiento</strong>  
+                                <p>24 de Agosto del 2002</p>
+                                <strong>Edad</strong>  
+                                <p>19 años</p>
+                              </div>
+                          </div>
+
+                          <div class="row">
+                              <div class="divider"></div>
+                          </div>
+                          
+                            <!--Address-->
+                            <div class="row">
+                                <div class="col s12 m2 l3 xl2"><i class="small material-icons">location_on</i></div>
+                                <div class="col s12 m9 l9 xl10">
+                                  <strong>Localizacion</strong>  
+                                  <p>Argentina, Jujuy</p>
+                                  <p>San Salvador de Jujuy</p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="divider"></div>
+                            </div>
+
+                          
+
+                            <!--Phone-->
+                            <div class="row">
+                                <div class="col s12 m2 l3 xl2"><i class="small material-icons">local_phone</i></div>
+                                <div class="col s12 m9 l9 xl10">
+                                    <strong>Celular</strong>
+                                    <p>+54 (388) 580 1038</p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="divider"></div>
+                            </div>
+
+                            <!--Email-->
+                            <div class="row">
+                                <div class="col s12 m2 l3 xl2"><i class="small material-icons">email</i></div>
+                                <div class="col s12 m9 l9 xl10">
+                                    <strong>Constitucional</strong>
+                                    <p><a href="mailto:">43939282@fi.unju.edu.ar</a></p>
+                                    <br />
+                                    <strong>Personal</strong>
+                                    <p><a href="mailto:">santiago24080218@mail.com</a></p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="divider"></div>
+                            </div>
+
+                            <!--Languages-->
+                            <div class="row">
+                                <div class="col s12 m2 l3 xl2"><i class="small material-icons">message</i></div>
+                                <div class="col s12 m9 l9 xl10">
+                                    <strong>Lenguajes</strong>
+                                    <ul>
+                                        <li>Español <span class="card-minimus">( Nativo )</span></li>
+                                        <li>Ingles <span class="card-minimus">( Nivel Medio )</span></li>
+                                        <li>Portugues <span class="card-minimus">( En Curso )</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!--Socialmedia-->
+                        <div class="card-action center">
+                            <a href="https://www.linkedin.com/in/santiago-jose-luis-tintilay-9614b1238" target="_blank" class="tooltipped" data-position="top" data-tooltip="Linkedin"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                            <a href="https://github.com/santyXD905" target="_blank" class="tooltipped" data-position="top" data-tooltip="Github"><i class="fab fa-github fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Perfil profecional-->
+                <div class="col s12 m12 l8 xl8">
+                  <div class="card">
+                      
+                      <div class="card-content">
+                          <div class="row row-title">
+                              <div class="col s12 m12 l12 xl12">
+                                  <span class="card-title"><i class="fa fa-address-card"></i>Perfil profesional</span>
+                              </div>
+                          </div>
+                          
+                          <div class="row">
+                              <div class="col s12 m12 l12 xl12">
+                                  <p>Soy un Estudiante finalizando la carreara de Analista Programador Universitario en la Facultad de Ingeniería de la Universidad Nacional de Jujuy con experiencia manejando un grupo en distintas diciplinas como ser proyectos backend-frontend uno usando angular y otro usando spring además llevando a cabo el diseño y análisis de un sistema usando metodologías agiles y tradicionales como ser Scrum o Proceso Unificado obteniendo buenos resultados.
+                                  </p>
+                                  <br>
+                                  <p>Mis habilidades principales consisten en identificar las capacidades de mis colegas y asignar correctamente los deberes además de mantener la integridad del grupo y el objetivo de la tarea asignada.
+                                    </p>
+                              </div>
+                          </div>
+
+                      </div>
+                  </div>
+
+                <!--Work experience
+                <div class="col s12 m12 l8 xl8">
+                    <div class="card">
+                        
+                        <div class="card-content">
+                            <div class="row row-title">
+                                <div class="col s12 m12 l12 xl12">
+                                    <span class="card-title"><i class="fas fa-briefcase fa-lg"></i>Work Experience</span>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col s12 m12 l12 xl12">
+                                    <strong>YOUR POSITION TITLE</strong>
+                                    <p><span class="card-minimus">Company name | 2010 - 2012</span></p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et neque vitae nisi consequat blandit volutpat id ligula. Mauris ac malesuada nulla:</p>
+
+                                    <p>
+                                        <ul>
+                                            <li>Sed posuere dapibus libero id aliquam.</span></li>
+                                            <li>Quisque scelerisque nec elit id condimentum.</span></li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="divider"></div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col s12 m12 l12 xl12">
+                                    <strong>YOUR POSITION TITLE</strong>
+                                    <p><span class="card-minimus">Company name | 2010 - 2012</span></p>
+                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur varius blandit tortor quis facilisis.</p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="divider"></div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col s12 m12 l12 xl12">
+                                    <strong>YOUR POSITION TITLE</strong>
+                                    <p><span class="card-minimus">Company name | 2010 - 2012</span></p>
+                                    <p>Curabitur aliquam justo nec metus molestie, id maximus est maximus. Sed ipsum ante, mollis ac magna non, molestie accumsan tellus. Maecenas congue commodo augue, et tempus erat dignissim eget.</p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="divider"></div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col s12 m12 l12 xl12">
+                                    <strong>YOUR POSITION TITLE</strong>
+                                    <p><span class="card-minimus">Company name | 2010 - 2012</span></p>
+                                    <p>Nam maximus efficitur erat, in faucibus tellus hendrerit eu. Morbi porttitor nisl lorem, in pharetra elit luctus sed. Sed ac nibh eget nulla semper aliquam eu vitae neque. Sed tincidunt iaculis sagittis. Pellentesque sit amet.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                      -->
+                    <div class="card">
+                        <!--Education-->
+                        <div class="card-content">
+                            <div class="row row-title">
+                                <div class="col s12 m12 l12 xl12">
+                                    <span class="card-title"><i class="fas fa-award fa-lg"></i>Educacion</span>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col s12 m12 l12 xl12">
+                                    <strong>ANALISTA PROGRAMADOR UNIVERSITARIO (en curso)</strong>
+                                    <p><span class="card-minimus">Universidad Nacional De Jujuy | San Salvador de Jujuy | 2018 - 2022</span></p>
+                                    <p><span class="card-minimus">Duración: 3 años</span></p>
+                                    <p>colocar link a titulo</p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="divider"></div>
+                            </div>
+
+                            <div class="row">
+                              <div class="col s12 m12 l12 xl12">
+                                  <strong>TÉCNICO EN INFORMATICA</strong>
+                                  <p><span class="card-minimus">Escuela de Minas Dr. Horacio Carrillo | San Salvador de Jujuy | 2018 - 2021</span></p>
+                                  <p><span class="card-minimus">Duración: 3 años</span></p>
+                                  <p>colocar link a titulo</p>
+                              </div>
+                            </div>
+
+                            <div class="row">
+                              <div class="divider"></div>
+                            </div>
+
+                            <div class="row">
+                              <div class="col s12 m12 l12 xl12">
+                                  <strong>Trayecto Desarrollador Full Stack – Entrenamiento Tecnológico IncluIT (en curso)</strong>
+                                  <p><span class="card-minimus">Curso Online | San Salvador de Jujuy | Junio 2021 - Diciembre 2021</span></p>
+                                  <p><span class="card-minimus">Duración: 6 meses</span></p>
+                                  <p>colocar link a titulo</p>
+                              </div>
+                            </div>
+
+                            <div class="row">
+                              <div class="divider"></div>
+                            </div>
+
+                            <div class="row">
+                              <div class="col s12 m12 l12 xl12">
+                                  <strong>Argentina Programa Plan nacional de formación en programación (en curso)</strong>
+                                  <p><span class="card-minimus">Curso Online | San Salvador de Jujuy | Junio 2021 - Diciembre 2021</span></p>
+                                  <p><span class="card-minimus">Duración: 6 meses</span></p>
+                                  <p>colocar link a titulo</p>
+                              </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <!--Idiomas-->
+                        <div class="card-content">
+                            <div class="row row-title">
+                                <div class="col s12 m12 l12 xl12">
+                                    <span class="card-title"><i class="fa fa-globe"></i>Idiomas</span>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                              <div class="col s12 m12 l12 xl12">
+                                  <strong>Curso de Portugues</strong>
+                                  <p><span class="card-minimus">Curso Online | San Salvador de Jujuy | Agosto 2021 - Diciembre 2021</span></p>
+                                  <p><span class="card-minimus">Duración: 4 meses</span></p>
+                                  <p>colocar link a titulo</p>
+                              </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <!--Informatica-->
+                        <div class="card-content">
+                            <div class="row row-title">
+                                <div class="col s12 m12 l12 xl12">
+                                    <span class="card-title"><i class="fa fa-laptop"></i>Informatica</span>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                              <div class="col s12 m12 l12 xl12">
+                                  <strong>Ofimática</strong>
+                                  <p>conocimientos y habilidades manejando las herramientas de Word y Excel del paquete de Microsoft Office
+                                    adquiridos en la materia Herramientas Informaticas de la carreara de Analista Programador Universitario
+                                  </p>
+                              </div>
+                            </div>
+
+                            <div class="row">
+                              <div class="divider"></div>
+                            </div>
+
+
+                            <div class="row">
+                              <div class="col s12 m12 l12 xl12">
+                                  <strong>Sistemas Operativos</strong>
+                                  <p><span class="">Microsoft Windows | nivel medio</span></p>
+                                  <p><span class="">Linux | nivel medio</span></p>
+                              </div>
+                            </div>
+
+                            <div class="row">
+                              <div class="divider"></div>
+                            </div>
+
+
+                            <div class="row">
+                              <div class="col s12 m12 l12 xl12">
+                                  <strong>Frameworks</strong>
+                                  <p><span class="">Angular | nivel medio</span></p>
+                                  <p><span class="">Spring | nivel bajo</span></p>
+                              </div>
+                            </div>
+
+                            <div class="row">
+                              <div class="divider"></div>
+                            </div>
+
+
+                            <div class="row">
+                              <div class="col s12 m12 l12 xl12">
+                                  <strong>Lenguajes de Programación</strong>
+                                  <p><span class="">C++ | nivel medio</span></p>
+                                  <p><span class="">C# | nivel medio</span></p>
+                                  <p><span class="">Java Script | nivel medio</span></p>
+                                  <p><span class="">SQL | nivel bajo</span></p>
+                              </div>
+                            </div>
+
+                            <div class="row">
+                              <div class="divider"></div>
+                            </div>
+
+
+                            <div class="row">
+                              <div class="col s12 m12 l12 xl12">
+                                  <strong>Bases de Datos</strong>
+                                  <p><span class="">MySQL | nivel bajo | </span><a href="">certificado</a></p>
+                                  <p><span class="">Mongo | nivel bajo | </span><a href="">certificado</a></p>
+                                  <p><span class="">Oracle | nivel bajo | </span><a href="">certificado</a></p>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <!--Additional information-->
+                        <div class="card-content">
+                            <div class="row row-title">
+                                <div class="col s12 m12 l12 xl12">
+                                    <span class="card-title"><i class="fas fa-info-circle fa-lg"></i>Extra</span>
+                                </div>
+                            </div>
+                            
+                            <div class="row row-col">
+                                <div class="col s12 m6 l6 xl6">
+                                    <strong>Becas</strong>
+                                    <p>soy un becario de la beca Manuel Belgrano</p>
+                                    <p><a href="#">https://becasmanuelbelgrano.educacion.gob.ar</a></p>
+                                </div>
+                            </div>
+
+                            <div class="row row-col">
+                              <div class="col s12 m6 l6 xl6">
+                                  <strong>Marca Personal</strong>
+                                  <p>esta es mi marca personal</p>
+                                  <p><a href="#">https://marcanoimplementada.com</a></p>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row-credits right">
+                    <div class="col s12">
+                        &copy; 2022
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--jQuery-->
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <!--Materialize js-->
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <!--Customized js-->
+        <script type="text/javascript" src="js/init.js"></script>
+    </body>
 </html>
